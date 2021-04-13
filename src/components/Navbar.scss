@@ -1,0 +1,11 @@
+@import '../variable';
+
+.navbar {
+  background-color: $color-primary;
+  border-bottom: 0.2rem solid $color-secondary;
+  color: #fff;
+
+  .btn-outline-light:hover {
+    color: #212529;
+  }
+}

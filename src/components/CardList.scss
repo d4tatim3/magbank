@@ -1,0 +1,15 @@
+@import '../variable.scss';
+
+.btn-primary {
+  display: none;
+}
+
+.card-list-button {
+  background-color: $color-secondary !important;
+  border-color: $color-secondary !important;
+}
+
+.card-list-button:hover {
+  background-color: $color-secondary-variable !important;
+  border-color: $color-secondary-variable !important;
+}
