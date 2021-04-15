@@ -1,0 +1,26 @@
+@import '../variable';
+
+.faq {
+  background-color: $color-faq-background;
+}
+
+div.faq__card {
+  background-color: unset;
+  .card-header {
+    background-color: $color-faq-header;
+  }
+}
+
+div.faq-clickable {
+  cursor: 'pointer';
+}
+
+h2.faq__title {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+
+  @media screen and (min-width: 992px) {
+    font-size: 3.5rem;
+  }
+}
