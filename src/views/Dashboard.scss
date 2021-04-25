@@ -19,11 +19,29 @@
   &__button {
     color: $color-primary;
     text-decoration: none;
+
     &:hover,
-    &--active {
-      color: #fff;
-      background-color: $color-primary;
+    &:focus,
+    &--active,
+    &--active:hover {
       text-decoration: none;
+    }
+
+    &:hover,
+    &--active,
+    &--active:hover {
+      color: #fff;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: $color-primary-variable;
+      text-decoration: none;
+    }
+
+    &--active,
+    &--active:hover {
+      background-color: $color-primary;
     }
   }
 
